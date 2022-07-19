@@ -160,26 +160,37 @@ h1 {
     gap: 60px;
     align-items: center;
 }
-.Fitured>a{
+
+.Fitured>a {
     background-color: #DC236C;
     padding: 10px 20px;
     color: white;
     font-weight: 500;
     text-decoration: none;
 }
-.Fitured>p{
+
+.Fitured>p {
     margin-bottom: 30px;
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
     text-align: center;
 }
-footer h2{
+
+footer h2 {
     padding-top: 50px;
 }
-.footer_icon>i{
+
+.footer_icon>i {
     font-size: 20px;
     padding: 10px;
     padding-bottom: 50px;
 }
+
+/*--------------------------
+ media query here 
+ --------------------------*/
+@media screen and (max-width: 688px) {}
+@media screen and (max-width: 992px) {}
