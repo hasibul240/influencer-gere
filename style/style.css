@@ -173,4 +173,13 @@ h1 {
 footer{
     background-color: black;
     color: white;
+    text-align: center;
+}
+footer h2{
+    padding-top: 50px;
+}
+.footer_icon>i{
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 50px;
 }
