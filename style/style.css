@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.logo_text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar>ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar>ul li i {
+    color: black;
+    font-size: 20px;
+}
+
+.main_title_sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_image {
+    width: 40%;
+}
+
+.title_sec,
+h1 {
+    width: 60%;
+}
+
+.title_sec p {
+    width: 500px;
+}
+
+.title_sec h1 {
+    margin-bottom: 25px;
+}
+
+.title_sec a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: #DC236C;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.title_sec p {
+    margin-bottom: 45px;
+}
+
+.title_sec>a>i {
+    margin: 0 10px;
+}
+
+.logos {
+    border-bottom: 1px solid #dfdede;
+    border-top: 1px solid #dfdede;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 29px;
+    align-items: center;
+    height: 100px;
+}
+
+.product_collection_title {
+    text-align: center;
+}
+
+.price {
+    font-size: 28px;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    font-size: 12px;
+    color: #F87D1D;
+}
+
+.product_content p,
+.rating {
+    font-weight: 700;
+    color: #787884;
+}
+
+.main_collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 45px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.main_product {
+    box-shadow: 0px 0px 45px #d3d3d3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.product_collection_img img {
+    width: 100%;
+}
+
+.product_content h2 {
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+.Fitured {
+    width: 100%;
+}
+
+.Fitured>h1 {
+    width: 100%;
+    margin: -35px 0px 10px 0px;
+}
+
+.Fitured_section {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.Fitured>a{
+    background-color: #DC236C;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+.Fitured>p{
+    margin-bottom: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
